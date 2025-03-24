@@ -82,12 +82,12 @@ nav a.active {
 }
 
 /* Main content */
-main {
-    flex: 1;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+    main {
+        flex: 1;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    } 
 
 /* About Page Styles */
 .about-container {
@@ -108,8 +108,8 @@ main {
 }
 
 .about-icon img {
-    width: 285px;
-    height: 230px;
+    width: 220px;
+    height: 150px; 
     position: absolute;
     top: 240px;
     left: 240px;
@@ -133,7 +133,10 @@ main {
 }
 
 .about-text {
-    color: #8B4513;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #880044;
     text-align: center;
     font-size: 1.6rem;
     line-height: 1.6;
@@ -148,13 +151,18 @@ main {
     align-items: center;
     gap: 0.5rem;
     width: max-content;
-    height: max-content;
+    height: max-content; 
     /* background-color: #ffeeba;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     border: 2px solid #4CAF50;
     color: #4CAF50;
     font-weight: bold; */
+}
+
+#further-img{
+    width: 200x;
+    height: 400px;
 }
 
 .info-link img {
@@ -192,6 +200,7 @@ main {
 
 .recipe-description {
     flex: 1;
+    font-family: "Montserrat", sans-serif;
     color: #880044;
     font-weight: bold;
     text-align: center;
@@ -255,8 +264,9 @@ main {
 } 
 
 .hero-text {
-    color: #8B4513;
+    color: #880044;
     padding-top: 1rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .highlight {
@@ -319,6 +329,83 @@ main {
     font-size: 0.9rem;
     color: #4CAF50;
 }
+
+/*compost page*/
+
+#compost_img{
+    width: 850px;
+    height: 400px;
+    margin-top: 3rem;
+    margin-right: 5.5rem;
+}
+
+.compost-link{
+    font-family: "Kirang Haerang", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #880044;
+    color: #ffeeba;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 4rem;
+}
+
+.compost-text{  
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    background-color: #ffeeba;
+    border: 4px solid #48673c;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: #880044;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    font-size: 1.6rem;
+    margin-right: 5.5rem;
+    /* line-height: 1.6;
+    margin-bottom: 1rem; */ 
+
+}
+
+
+.compost-text-2{  
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    background-color: #ffeeba;
+    border: 4px solid #48673c;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: #880044;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+    /* line-height: 1.6;
+    margin-bottom: 1rem; */ 
+
+}
+
+#compost-vege{
+    width: 600px;
+    height: 300px;
+    margin-left: 5.5rem;
+}
+
+.compost-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* margin: 2.5rem;
+    justify-items: center; */
+}
+
 
 /* Footer */
 footer {
