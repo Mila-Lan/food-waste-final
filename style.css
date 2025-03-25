@@ -20,8 +20,10 @@ nav {
     gap: 2rem;
     padding: 1.5rem 0.5rem;
     /* background-color: #f5f5f5; */
-    border: 2px solid #48673c;
-    border-radius: 10px;
+    background: url("images/nav-border-med.svg") no-repeat;
+    padding-top: 0px;
+    /* border: 2px solid #48673c;
+    border-radius: 10px; */
     margin: 20px 20px 0 20px;
     /* flex-wrap: wrap; */
 }
@@ -32,16 +34,23 @@ nav {
     font-style: normal;
     text-decoration: none;
     color: #48673c;
-    padding: 1.5rem 1rem 0 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin-bottom: 34px;
     background-color: #ffeeba;
     border-radius: 20px;
     transition: background-color 0.3s;
     min-width: 200px;
-    min-height: 60px;
+    min-height: 45px;
     text-align: center;
-    vertical-align: center; 
+    /* vertical-align: center;  */
     font-size: 2rem;
 }
+
+
+/* .nav-button a{
+    margin-bottom: 60px;
+    margin-top: 0px;
+} */
 
 .nav-button:hover {
     /* background-color: #fbdd9d; */
@@ -84,9 +93,13 @@ nav a.active {
     main {
         flex: 1;
         padding: 2rem;
-        max-width: 1200px;
+        /* max-width: 1200px; */
         margin: 0 auto;
     } 
+
+.general-main{
+    max-width: 1200px;
+}
 
 /* About Page Styles */
 .about-container {
@@ -254,8 +267,10 @@ nav a.active {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10rem;
+    gap: 4rem;
     margin-bottom: 3rem;
+    max-width: 1450px;
+    align-items: center;
 } 
 
 .hero-text {
@@ -327,6 +342,12 @@ nav a.active {
 
 /*compost page*/
 
+ #compost-main{
+    padding-left: 200px;
+    /* margin: 0px;
+    padding: 0px; */
+} 
+
 #compost_img{
     width: 850px;
     height: 400px;
@@ -345,6 +366,7 @@ nav a.active {
     text-decoration: none;
     font-weight: bold;
     margin: 4rem;
+   font-size: 1.5rem;
 }
 
 .compost-text{  
@@ -434,10 +456,18 @@ nav a.active {
     font-weight: bold;
 }
 
+
+.resources{
+    padding-left: 200px;
+}
+
+
+
 .resource-cards {
     display: flex;
     gap: 30px;
 }
+
 
 .resource-card {
     background-color: #ffeeba;
@@ -446,6 +476,7 @@ nav a.active {
     border: 4px solid #48673c;
     color: #880044;
     font-family: "Montserrat", sans-serif;
+    width: 300px;
 }
 
 .resource-card img {
@@ -468,6 +499,7 @@ nav a.active {
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
+    margin-top: 15px;
 
 }
 
@@ -478,6 +510,7 @@ nav a.active {
 
 .quick-facts {
     margin-top: 50px;
+    margin-left: 100px;
     color: #880044;
 }
 

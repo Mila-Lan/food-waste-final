@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.26 125.96">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.76 125.96">
   <defs>
     <style>
       .cls-1 {
-        fill: #fcf49d;
-        stroke: #48673c;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-2 {
         fill: #4a673d;
         font-family: KirangHaerang-Regular, 'Kirang Haerang';
         font-size: 15px;
+      }
+
+      .cls-2 {
+        fill: #ffefba;
+        stroke: #48673c;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
       }
 
       .cls-3 {
@@ -32,11 +32,11 @@
       }
 
       .cls-6 {
-        fill: #e07364;
+        fill: #df7364;
       }
 
       .cls-7 {
-        fill: #da4635;
+        fill: #d94635;
       }
     </style>
   </defs>
@@ -52,7 +52,7 @@
         <path class="cls-3" d="M65.09,26.53c-7.23-.2-15.83,2.15-24.98-14.58,0,0-3.62-6.78,2.37-2.6,5.99,4.18,19.22,12.32,20.91,10.74,1.7-1.58-1.92-19.44-1.47-19.56.45-.11,9.45-1.13,9.07,0-.37,1.13-2.41,18.99-1.84,19.1.57.11,14.13-4.41,20.57-11.3,0,0,3.28-.68.9,3.17-2.37,3.84-14.08,13.99-21.7,15.12-1.06.16-2.7-.06-3.83-.09Z"/>
       </g>
     </g>
-    <rect class="cls-1" x="72.34" y="26.68" width="104.92" height="49.22" rx="12" ry="12"/>
-    <text class="cls-2" transform="translate(77.91 46.16)"><tspan x="0" y="0">Bought too much </tspan><tspan x="7.16" y="16" xml:space="preserve">of something?  </tspan></text>
+    <rect class="cls-2" x="72.34" y="26.68" width="104.92" height="49.22" rx="12" ry="12"/>
+    <text class="cls-1" transform="translate(77.91 46.16)"><tspan x="0" y="0">Bought too much </tspan><tspan x="7.16" y="16" xml:space="preserve">of something?  </tspan></text>
   </g>
 </svg>
