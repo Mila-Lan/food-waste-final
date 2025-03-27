@@ -19,13 +19,9 @@ nav {
     align-items: center;
     gap: 2rem;
     padding: 1.5rem 0.5rem;
-    /* background-color: #f5f5f5; */
     background: url("images/nav-border-med.svg") no-repeat;
     padding-top: 0px;
-    /* border: 2px solid #48673c;
-    border-radius: 10px; */
     margin: 20px 20px 0 20px;
-    /* flex-wrap: wrap; */
 }
 
 .nav-button{
@@ -42,33 +38,23 @@ nav {
     min-width: 200px;
     min-height: 45px;
     text-align: center;
-    /* vertical-align: center;  */
     font-size: 2rem;
 }
 
 
-/* .nav-button a{
-    margin-bottom: 60px;
-    margin-top: 0px;
-} */
-
 .nav-button:hover {
-    /* background-color: #fbdd9d; */
     text-decoration: underline;
 }
 
 nav a.active {
-    /* background-color: #fbdd9d; */
     border: 3px solid #48673c;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    /* gap: 1rem; */
     flex-wrap: wrap;
     justify-content: center;
-    /* width: 100%; */
     transition: all 0.3s;
     box-sizing: border-box;
     max-width: 100%;
@@ -93,7 +79,6 @@ nav a.active {
     main {
         flex: 1;
         padding: 2rem;
-        /* max-width: 1200px; */
         margin: 0 auto;
     } 
 
@@ -136,7 +121,6 @@ nav a.active {
 }
 
 .about-text {
-    /* font-family: "Kirang Haerang", system-ui; */
     color: #880044;
     text-align: center;
     font-size: 1.6rem;
@@ -151,28 +135,12 @@ nav a.active {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    /* width: max-content;
-    height: max-content;  */
-    /* background-color: #ffeeba;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 2px solid #4CAF50;
-    color: #4CAF50;
-    font-weight: bold; */
 }
 #further-img {
     width: 320px;
     height: 250px; 
 } 
 
-/* further-img{
-    border: 6px solid black;
-}  */
-
-/* .info-link img {
-    width: 30px;
-    height: 30px;
-} */
 
 /* Recipe Page Styles */
 .recipe-header {
@@ -194,13 +162,6 @@ nav a.active {
     height: 150px;
 }
 
-/* .recipe-label {
-    background-color: #ffeeba;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    color: #4CAF50;
-    font-weight: bold;
-} */
 
 .recipe-description {
     flex: 1;
@@ -289,14 +250,11 @@ nav a.active {
 .hero-image img {
     width: 850px;
     height: auto;
-    /* border-radius: 20px; */
-    /* border: 3px solid #8B4513; */
 }
 
 .food-items {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* gap: 18rem; */
     gap: 4rem;
     margin-top: 4rem;
     justify-content: center;
@@ -344,8 +302,6 @@ nav a.active {
 
  #compost-main{
     padding-left: 200px;
-    /* margin: 0px;
-    padding: 0px; */
 } 
 
 #compost_img{
@@ -383,9 +339,6 @@ nav a.active {
     height: 400px;
     font-size: 1.6rem;
     margin-right: 5.5rem;
-    /* line-height: 1.6;
-    margin-bottom: 1rem; */ 
-
 }
 
 
@@ -404,9 +357,6 @@ nav a.active {
     margin-top: 3rem;
     margin-left: 5.5rem;
     margin-bottom: 2rem;
-    /* line-height: 1.6;
-    margin-bottom: 1rem; */ 
-
 }
 
 #compost-vege{
@@ -419,8 +369,6 @@ nav a.active {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    /* margin: 2.5rem;
-    justify-items: center; */
 }
 
 /* Info page */
