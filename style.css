@@ -238,6 +238,7 @@ nav a.active {
     color: #880044;
     padding-top: 1rem;
     font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
 }
 
 .highlight {
@@ -451,9 +452,13 @@ nav a.active {
 
 }
 
-.resource-card h3, p {
+.resource-card h3 {
     margin: 15px 0;
+}
 
+.resource-card p {
+    margin: 15px 0;
+    color: #48673c;
 }
 
 .quick-facts {
